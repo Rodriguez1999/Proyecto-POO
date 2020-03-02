@@ -1,0 +1,17 @@
+.formulario{
+    margin-top: 200px;
+
+}
+
+.formulario > div{
+    background-color: rgba(214, 214, 214, 0.541);
+    border-radius: 0.50rem;;
+}
+
+.formulario  input{
+    text-align: center;
+    border-radius: 0.5rem;
+    background: white;
+    padding: 0.1rem;
+    margin: 0.2rem;
+}

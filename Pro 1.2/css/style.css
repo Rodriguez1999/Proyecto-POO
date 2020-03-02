@@ -1,0 +1,141 @@
+:root {
+
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+h1,h2,h3 {
+    font-weight: 900;
+}
+h2 {
+    font-size: 3.4rem;
+}
+h3 {
+    font-size: 3rem;
+}
+.bg-light {
+    background-color: white!important;
+}
+.nombre-sitio {
+    font-weight: 300;
+    font-size: 2.4rem;
+}
+.nombre-sitio span {
+    font-weight: 900;
+}
+.navbar-toggler {
+    background-color: white!important;
+    margin: 0 auto;
+}
+.header {
+    height: 40rem;
+    background-image: url(../img/retina-display.jpg);
+    background-size: cover;
+    background-position: bottom center;
+}
+.nav-link {
+    color: white!important;
+}
+@media (min-width:992px) {
+    .header .nav-link:first-child::before {
+        display: none;
+    }
+    .header .nav-link::before {
+        content: '|';
+        margin-right: 1rem;
+    }
+}
+.telefono::before {
+    content: '';
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    background-image: url(../img/icono_telefono.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: 1rem;
+}
+/** Nosotros **/
+.sobre-nosotros-bg {
+    background-image: url(../img/nosotros.jpg);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    min-height: 44rem;
+}
+@media (min-width: 768px) {
+    .sobre-nosotros-bg {
+        min-height: 36rem;
+    }
+}
+
+
+/** Modelos **/
+.modelo {
+    background-repeat: no-repeat;
+    min-height: 40rem;
+}
+@media (min-width:768px) {
+    .modelo {
+        min-height: 30rem;
+    }
+}
+.oficina {
+    background-image: url(../img/oficina.jpg);
+    background-position: bottom right;
+}
+.hogar {
+    background-image: url(../img/hogar.jpg);
+    background-position: top left;
+}
+.electronica {
+    background-image: url(../img/electronica.jpg);
+    background-position: bottom right;
+}
+
+/** Footer **/
+.footer {
+    height: 30rem;
+    background-image: url(../img/47525.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.bg-dark {
+    background-color: #111!important;
+}
+
+
+
+
+
+
+.ficha{
+    width: auto;
+    position: relative;
+    float: left;
+}
+
+.ficha img{
+    width: 100%;
+}
+
+.caption{
+    background: rgba(0, 0, 0, 0.486);
+    width: 100%;
+    position: absolute;
+    color: #fff;
+    top:-100%;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s;
+}
+
+.ficha:hover .caption{
+    top: 0;
+}
